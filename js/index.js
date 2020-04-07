@@ -112,14 +112,13 @@ bottomContent5.textContent = ('class', siteContent["main-content"]["vision-conte
 // Update contact section
 const contactContent = document.querySelector('section.contact > h4')
 contactContent.textContent = ('class', siteContent["contact"]["contact-h4"])
-const contactContent1 = document.querySelector('section.contact > p')
+const contactContent1 = document.querySelector('section.contact > p:nth-child(2)')
 contactContent1.textContent = ('class', siteContent["contact"]["address"])
-const contactContent2 = document.querySelector('section.contact > p')
+const contactContent2 = document.querySelector('section.contact > p:nth-child(3)')
 contactContent2.textContent = ('class', siteContent["contact"]["phone"])
-const contactContent3 = document.querySelector('section.contact > p')
+const contactContent3 = document.querySelector('section.contact > p:last-child')
 contactContent3.textContent = ('class', siteContent["contact"]["email"])
 
 // Update footer
 const footerContent = document.querySelector('footer > p')
 footerContent.textContent = ('class', siteContent["footer"]["copyright"])
-
